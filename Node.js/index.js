@@ -19,11 +19,11 @@ function printInfo() {
     }
 
     if (config.showCPUUsage) {
-        console.log('Uso de CPU: ', process.cpuUsage().user / 1000,'ms');
+        console.log('Uso de CPU: ', process.cpuUsage() / 1000,'ms');
     }
 
     if (config.showMemoryUsage) {
-        console.log(`Uso de memoria: `, process.memoryUsage().rss, '%');
+        console.log(`Uso de memoria: `, process.memoryUsage(), '%');
     }
 
     if (config.showSystemUptime) {
