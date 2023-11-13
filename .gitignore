@@ -1,5 +1,0 @@
-# Ignorar archivos generados por npm
-node_modules/
-
-# Ignorar archivos de configuración
-config.json
